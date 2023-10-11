@@ -1,0 +1,40 @@
+{
+  "name": "@brunoleitem/axios-utils",
+  "version": "1.0.0",
+  "description": "Middlewares for Axios library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoleitem/axios-utils"
+  },
+  "keywords": [
+    "Axios",
+    "Logger",
+    "Middleware",
+    "Logs"
+  ],
+  "author": "Bruno Leite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoleitem/axios-utils/issues"
+  },
+  "homepage": "https://github.com/brunoleitem/axios-utils#readme",
+  "devDependencies": {
+    "axios": "^1.5.1",
+    "date-fns": "^2.30.0",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
